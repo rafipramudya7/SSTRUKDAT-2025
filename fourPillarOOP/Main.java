@@ -1,4 +1,4 @@
-package fourPillarOOP.Encasulaption;
+package fourPillarOOP;
 
 // menggunakan public
 class Account {
