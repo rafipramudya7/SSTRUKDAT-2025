@@ -128,7 +128,7 @@ class Mahasiswa extends Identitas {
     }
 }
 ```
-untuk `class` utamanya disini ada `class` mahasiswa dengan attribute bawaan sesuai dengan format ditambah sebuah array yang menampung riwayat kelas absesnsi yang diikuti. `Class` mahasiswa juga memiliki parent `abstract` `Identitas`.`Constructor` dari kelas ini berfungsi mengisi `Constructor` dari `Abstraksinya`deengan menggunakn `super()` dan menginisiaasi beberapa attribute nya sendiri. Methode `getInfo` berfungsi untuk menampilkan output informasi dari mahasiswa tersebut. method `tambahAbsensi` berguna menambahkan matakuliah ke daftar list riwayat kelas.
+untuk `class` utamanya disini ada `class` mahasiswa dengan attribute bawaan sesuai dengan format.ditambah sebuah array yang menampung riwayat kelas absesnsi yang diikuti. `Class` mahasiswa juga memiliki parent `abstract` `Identitas`.`Constructor` dari kelas ini berfungsi mengisi `Constructor` dari `Abstraksinya` menggunakn `super()` dan menginisiasi beberapa attribute nya sendiri. Methode `getInfo` berfungsi untuk menampilkan output informasi dari mahasiswa tersebut. method `tambahAbsensi` berguna menambahkan mata kuliah ke daftar list riwayat kelas.
 
 ```java
 public class main {
@@ -259,7 +259,7 @@ public class main {
     }
 }
 ```
-ini adalah constructor utama dari file `main.java`. class main memilki class tambahan sebagai validator cek data yang berguna adakah id yang sesuai didalam array dataMahasiswa. selain itu class main memiliki 4 methode utama. Pertama methode buat menambah data dengan cara memasukan inut sesuai format lalu menambahkan ke class mahasiswa dengan membuat object baru dan menyimpanya ke dalam array mahasiswa.method kedua berguna untuk menampilkan data seluruh mahasiswa yang terdaftar dengan memanggil methode `getInfo()` tiap object didalam array. Methode ketiga berguna absensi mahasiswa dengan cara memastikan apakah mahasiswa valid, lalu jika valid memasukan kelas yang diikuti ke dalam array riwayatKelas milik object mahasiswa yang dituju.fungsi keempat berfungsi sebagai gatement validation dengan cara memasukan 2 input berupa `nfcId` dan plat nomor. jika data tersedia sesua `nfcId` dan plat nomornya sesua dari object yang dituju maka grbang akan terbuka.
+ini adalah constructor utama dari file `main.java`. class main memilki class tambahan sebagai validator cek data yang berguna mengecek adakah id yang sesuai didalam array dataMahasiswa. selain itu class main memiliki 4 methode utama. Pertama methode buat menambah data dengan cara memasukan inut sesuai format lalu menambahkan ke class mahasiswa dengan membuat object baru dan menyimpanya ke dalam array mahasiswa.method kedua berguna untuk menampilkan data seluruh mahasiswa yang terdaftar dengan memanggil methode `getInfo()` tiap object didalam array. Methode ketiga berguna absensi mahasiswa dengan cara memastikan apakah mahasiswa valid, lalu jika valid memasukan kelas yang diikuti ke dalam array riwayatKelas milik object mahasiswa yang dituju.fungsi keempat berfungsi sebagai gatement validation dengan cara memasukan 2 input berupa `nfcId` dan plat nomor. jika data tersedia sesua `nfcId` dan plat nomornya sesuai dari object yang dituju maka grbang akan terbuka.
 
 agar lebih interaktif disini ada terminal interaksi `whileLoop` dengan 4 pilihan sesuai 4 fungsi yang sudah dideklarasikan
 
